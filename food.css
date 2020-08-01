@@ -2,13 +2,13 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Cabin', sans-serif;
+
 }
 
 body{
-    background: url(restaurant.png);
-    background-repeat: no-repeat;
+    background:rgba(164,136,101, 0.5);
     background-size: cover;
-    background-position: top;
 }
 .flex-container{
     position: fixed;
@@ -96,49 +96,54 @@ justify-items: center;
 
 }
 
-.menu{
-    display: grid;
-    grid-template-rows: 150px 150px 150px;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px;
-    height: 500px;
-    width: fit-content;
-    justify-content: center;
-    justify-self: center;
-    align-self: center;
-    background:  rgba(164,136,101, 0.4);
-    margin: auto;
-    margin-top: 150px;
-    padding-botom: 0px;
-}
+.menu-container{
+    width:800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
 
-#asd{
-    width: 100%;
-    height: 100%;
-}
-
-
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-transform: none;
-    text-decoration: none;
-    bottom: 0;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 40px;
-    position: absolute;
-    background: rgb(164,136,101);
+    
+    
 }
 
 h3{
-    padding: 0;
     margin: 0;
-    color: white; 
 }
 
-a:visited{
+#pizza-quatro-stagioni{
+    width: 100%;
+    height: 300px;
+}
+#quatro-stagioni-ingredients{
+    margin: 0;
+}
+
+#pizza-capriciosa{
+    width: 100%;
+    height: 300px;
+}
+
+.pret{
+    text-transform: uppercase;
+}
+
+.quatro-ingredients{
+    margin: 0;
+    background:rgba(164,136,101, 0.5);
     color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.capriciosa-ingredients{
+    margin: 0;
+    background:rgba(164,136,101, 0.5);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
 }
